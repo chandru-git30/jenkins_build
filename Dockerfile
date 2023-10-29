@@ -30,4 +30,4 @@ USER coder
 RUN mkdir -p /home/coder/project
 
 # Start code-server
-CMD ["code-server", "--bind-addr", "0.0.0.0:8080", "--auth", "none", "/home/coder/project"]
+CMD ["code-server", "--bind-addr", "0.0.0.0:8081", "--auth", "none", "/home/coder/project"]
